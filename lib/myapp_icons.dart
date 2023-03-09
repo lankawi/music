@@ -16,6 +16,18 @@
 ///         Author:    Daniel Bruce
 ///         License:   SIL (http://scripts.sil.org/OFL)
 ///         Homepage:  http://www.entypo.com
+/// * Material Design Icons, Copyright (C) Google, Inc
+///         Author:    Google
+///         License:   Apache 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+///         Homepage:  https://design.google.com/icons/
+/// * RPG Awesome, Copyright (c) 2014, Daniela Howe
+///         Author:    Daniela Howe & Ivan Montiel
+///         License:   SIL (http://scripts.sil.org/OFL)
+///         Homepage:  http://nagoshiashumari.github.io/Rpg-Awesome/
+/// * Font Awesome 5, Copyright (C) 2016 by Dave Gandy
+///         Author:    Dave Gandy
+///         License:   SIL (https://github.com/FortAwesome/Font-Awesome/blob/master/LICENSE.txt)
+///         Homepage:  http://fortawesome.github.com/Font-Awesome/
 ///
 import 'package:flutter/widgets.dart';
 
@@ -28,7 +40,7 @@ class Myapp {
   static const IconData note = IconData(0xe800, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData note_beamed = IconData(0xe801, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData music = IconData(0xe802, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData book_open = IconData(0xe803, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData library_music = IconData(0xe803, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData mic = IconData(0xe804, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData cog = IconData(0xe805, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData info = IconData(0xe806, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -44,4 +56,6 @@ class Myapp {
   static const IconData heart = IconData(0xe810, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData moon = IconData(0xe811, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData light_up = IconData(0xe812, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData jigsaw_piece = IconData(0xea12, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData book_open = IconData(0xf518, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 }
